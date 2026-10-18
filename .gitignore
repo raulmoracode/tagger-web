@@ -28,6 +28,8 @@ dist-ssr
 !.env.example
 .next
 coverage
+playwright-report
+test-results
 # Keep .opencode/ trackable (dotfolders must travel with the repo)
 !.opencode/
 !.opencode/opencode.json
