@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: npm # pnpm projects use the npm ecosystem
+    directory: /
+    schedule:
+      interval: weekly
+    versioning-strategy: increase # bumps exact versions, never creates ranges
+    cooldown:
+      # Same 7-day maturity gate as pnpm-workspace.yaml (minimumReleaseAge: 10080)
+      default-days: 7
+    groups:
+      minor-and-patch:
+        applies-to: version-updates
+        update-types:
+          - minor
+          - patch
