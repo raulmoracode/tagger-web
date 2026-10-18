@@ -8,15 +8,15 @@
  */
 
 export const site = {
-  name: "tagger-new-web",
-  title: "tagger-new-web",
+  name: "tagger",
+  title: "tagger",
   description: "",
   url: "",
   favicon: "https://cdn.raulmoracode.com/icons/favicon.ico",
-  socialImage: "/imagen.png",
-  socialImageAlt: "tagger-new-web — React 19 + Vite 8 + TypeScript 6",
+  socialImage: "",
+  socialImageAlt: "tagger — visor 3D",
   author: "Raul Mora",
   twitter: "@raulmoracode",
   locale: "es_ES",
-  themeColor: "#ffffff",
+  themeColor: "#1a1a1a",
 } as const;
