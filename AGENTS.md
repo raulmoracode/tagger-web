@@ -79,8 +79,6 @@ Treat the following files as sources of truth for the current project configurat
 ├── commitlint.config.ts     # commit message validation
 ├── biome.json               # formatter + linter config
 ├── vitest.config.ts         # test config
-├── playwright.config.ts     # E2E config
-├── e2e/                     # Playwright E2E tests
 ├── .vscode/                 # VS Code settings + extensions
 ├── vite.config.ts           # Vite configuration
 ├── tsconfig.json            # TypeScript configuration
@@ -107,7 +105,6 @@ Available scripts (see `package.json` for the full list):
 - `pnpm format` — apply formatting.
 - `pnpm lint` — run the linter.
 - `pnpm test` — run the test suite in watch mode (use `CI=true pnpm test` for single run).
-- `pnpm e2e` — run browser E2E tests with Playwright (install browsers first with `pnpm exec playwright install chromium`).
 
 ## Components and UI
 
@@ -127,7 +124,6 @@ Do not hand-write component files under the shadcn UI directory. Registry items 
 pnpm check
 pnpm typecheck
 pnpm test
-pnpm e2e
 pnpm build
 ```
 
