@@ -38,7 +38,7 @@ pnpm dev
 
 ## shadcn components
 
-No components are preinstalled. Add yours from the private registry:
+Components live in `src/components/ui`. Add more with the shadcn CLI:
 
 ```bash
 pnpm dlx shadcn@4.21.0 add @raulmoracode/<component>
