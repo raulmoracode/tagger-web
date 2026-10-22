@@ -11,7 +11,7 @@
     "forms": false,
     "biome": true,
     "testing": true,
-    "playwright": true,
+    "playwright": false,
     "husky": true,
     "vscode": true
   },
@@ -32,7 +32,6 @@
     "biome.json": "d04ff787b02e42d7f60e1bb3db16743b7895c88882baf07da0840dd12d036e6d",
     "commitlint.config.ts": "101001638e174a3b7e9b426ae05db040fa10d04c85d3b01924d9193be16ca27e",
     "components.json": "53088f67d9da24b1b5019a1896b049c905de929116f267e54d9d4f01361a841f",
-    "playwright.config.ts": "05eedfad8322dbf1ace33498bba36269d88091f53712705b7ab76bd59f3fd06e",
     "vite.config.ts": "465a100c84374c0e56dc719bc958ac02b729e235b741c5aaddcbae2ab2fb2c23",
     "vitest.config.ts": "0a14425b633036d289441bd102de98c5ad088c781f0110bb825594b1b5dcba87"
   },
@@ -40,7 +39,6 @@
     "@biomejs/biome": "2.5.14",
     "@commitlint/cli": "21.2.3",
     "@commitlint/config-conventional": "21.2.3",
-    "@playwright/test": "1.64.0",
     "@tailwindcss/vite": "4.3.3",
     "@testing-library/dom": "10.4.2",
     "@testing-library/react": "16.3.3",

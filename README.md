@@ -25,7 +25,6 @@ pnpm dev
 | `pnpm format` | Apply formatting |
 | `pnpm lint` | Run the linter |
 | `pnpm test` | Run the test suite (watch mode) |
-| `pnpm e2e` | Run browser E2E tests with Playwright |
 
 ## Tech stack
 
@@ -34,7 +33,6 @@ pnpm dev
 - **shadcn** — `components.json` + `cn()` helper (`src/lib/utils.ts`)
 - **Biome 2.5.14** — formatter, linter and organize imports
 - **Vitest 5.0.2 + Testing Library** — tests run in `jsdom`
-- **Playwright 1.64.0** — E2E tests in a real Chromium browser
 - **Husky 9.1.7 + Commitlint** — Git hooks and Conventional Commits
 - **VS Code** — Biome set as default formatter, format on save
 
@@ -71,7 +69,6 @@ fix: handle invalid input
 - `pnpm typecheck` — the TypeScript checker passes
 - `pnpm test` — tests pass
 - `pnpm build` — production build succeeds
-- `pnpm e2e` — browser E2E tests pass (Playwright installs Chromium on the runner)
 
 Deployment is manual: once CI passes, deploy to your preferred hosting provider.
 
@@ -136,8 +133,6 @@ Change it there and both follow: nothing has to be edited in `index.html` or `la
 ├── commitlint.config.ts    # commit message validation
 ├── biome.json              # formatter + linter config
 ├── vitest.config.ts        # test config
-├── playwright.config.ts    # E2E config
-├── e2e/                    # Playwright E2E tests
 ├── .vscode/                # VS Code settings + extensions
 ├── pnpm-workspace.yaml     # minimumReleaseAge policy + excludes
 ├── .nvmrc                  # pinned Node version
